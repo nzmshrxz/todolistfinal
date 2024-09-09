@@ -1,0 +1,106 @@
+/* Basic reset and box-sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: #1a1a2e
+}
+/* Main container styling */
+.main {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Title styling */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Input field styling */
+.input {
+    width: calc(100% - 100px); /* Adjust width to fit next to button */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px; /* Space between input and button */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Add Task button styling */
+.btn {
+    background-color: #4CAF50; /* Green background */
+    margin-top: 10px;
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* List styling */
+.item-list {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* List item styling */
+.item-list li {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between text and button */
+    align-items: center; /* Center items vertically */
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Border between items */
+    background-color: #fff; /* White background for items */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Delete button styling within list items */
+.item-list button {
+    background-color: #ff4d4d; /* Red background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 6px 10px; /* Padding for size */
+    font-size: 14px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.item-list button:hover {
+    background-color: #e60000; /* Darker red on hover */
+}
+
+/* Trademark Styling */
+.trademark {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #e0e0e0; /* Light text color for contrast */
+}
+
+.initials {
+  font-weight: bold;
+  font-style: italic;
+  color: #ffcc00; /* Brand color for initials */
+}
